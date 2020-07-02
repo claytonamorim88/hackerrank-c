@@ -5,7 +5,6 @@ int helloworld();
 
 int main(int argc, char *argv[]) {
 	int chosen = 1;
-	int retorno;
 	
 	printf("Please, choose a program to be executed:\n\n");
 	printf("1 - Hello World\n");
@@ -39,9 +38,11 @@ int main(int argc, char *argv[]) {
 	
 	switch(chosen){
 		case 1: 
-			retorno = helloworld();
+			helloworld();
 			break;
-			
+		case 2:
+			sunAndDifference();
+			break;	
 		default:
 			printf("Invalid choice!");
 			break;	
