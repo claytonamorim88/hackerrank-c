@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 int helloworld();
+int playingWithCharacters();
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
@@ -42,6 +43,9 @@ int main(int argc, char *argv[]) {
 			break;
 		case 2:
 			sunAndDifference();
+			break;	
+		case 3:
+			playingWithCharacters();
 			break;	
 		default:
 			printf("Invalid choice!");
