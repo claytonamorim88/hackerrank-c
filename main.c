@@ -50,6 +50,9 @@ int main(int argc, char *argv[]) {
 			break;	
 		case 4:
 			functionsInC();
+			break;
+		case 5:
+			pointerInC();	
 			break;	
 		default:
 			printf("Invalid choice!");
