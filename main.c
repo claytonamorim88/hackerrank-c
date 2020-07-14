@@ -10,28 +10,29 @@ int main(int argc, char *argv[]) {
 	printf("Please, choose a program to be executed:\n\n");
 	printf("1 - Hello World\n");
 	printf("2 - Sum and Difference of Two Numbers\n");
-	printf("3 - Functions in C\n");
-	printf("4 - Pointers in C\n");
-	printf("5 - Conditional Statements in C\n");
-	printf("6 - For Loop in C\n");
-	printf("7 - Sum of Digits of a Five Digit Number\n");
-	printf("8 - Bitwise Operators\n");
-	printf("9 - Printing Pattern using Loops\n");
-	printf("10 - 1D Arrays in C\n");
-	printf("11 - Array Reversal\n");
-	printf("12 - Printing Tokens\n");
-	printf("13 - Digit Frequency\n");
-	printf("14 - Dynamic Array in C\n");
-	printf("15 - Calculate the Nth term\n");
-	printf("16 - Students Marks Sum\n");
-	printf("17 - Sorting Array of Strings\n");
-	printf("18 - Permutations of Strings\n");
-	printf("19 - Variadic functions in C\n");
-	printf("20 - Querying the Document\n");
-	printf("21 - Boxes through a Tunnel\n");
-	printf("22 - Small Triangles, Large Triangles\n");
-	printf("23 - Post Transition\n");
-	printf("24 - Structuring the Document\n");
+	printf("3 - Playing With Characters\n");
+	printf("4 - Functions in C\n");
+	printf("5 - Pointers in C\n");
+	printf("6 - Conditional Statements in C\n");
+	printf("7 - For Loop in C\n");
+	printf("8 - Sum of Digits of a Five Digit Number\n");
+	printf("9 - Bitwise Operators\n");
+	printf("10 - Printing Pattern using Loops\n");
+	printf("11 - 1D Arrays in C\n");
+	printf("12 - Array Reversal\n");
+	printf("13 - Printing Tokens\n");
+	printf("14 - Digit Frequency\n");
+	printf("15 - Dynamic Array in C\n");
+	printf("16 - Calculate the Nth term\n");
+	printf("17 - Students Marks Sum\n");
+	printf("18 - Sorting Array of Strings\n");
+	printf("19 - Permutations of Strings\n");
+	printf("20 - Variadic functions in C\n");
+	printf("21 - Querying the Document\n");
+	printf("22 - Boxes through a Tunnel\n");
+	printf("23 - Small Triangles, Large Triangles\n");
+	printf("24 - Post Transition\n");
+	printf("25 - Structuring the Document\n");
 	printf("\n");
 	
 	scanf("%d", &chosen);
@@ -46,6 +47,9 @@ int main(int argc, char *argv[]) {
 			break;	
 		case 3:
 			playingWithCharacters();
+			break;	
+		case 4:
+			functionsInC();
 			break;	
 		default:
 			printf("Invalid choice!");
